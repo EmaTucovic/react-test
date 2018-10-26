@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import ReactContextApi from './ReactContextApi/index';
-import ReactStaticContext from './ReactStaticContext/index';
-
-
+import React, { Component } from "react";
+import Test from './ReactRenderProp';
 class App extends Component {
   render() {
     return (
       <div>
-        <ReactStaticContext/>
+        <Test />
       </div>
     );
   }
 }
 
 export default App;
+
+
