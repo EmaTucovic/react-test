@@ -14,7 +14,10 @@ class Amount extends Component {
 
 
   // Amount component is render prop component: it implemets this pattern (uses children as function)
-  // if we use children as componnet, we talk about component composition
+  // If we use children as componnet, we talk about component composition
+  // Why it is called render prop?
+  // It uses render prop instead of a children as function 
+
   render() {
     return (
       <div>
@@ -26,7 +29,7 @@ class Amount extends Component {
         <button type="button" onClick={this.onDecrement}>
           -
         </button>
-        {this.props.children(this.state.amount)}
+        {this.props.renderValutes(this.state.amount)}
       </div>
     );
   }
