@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Test from './ReactRenderProp';
+import Test from './HigherOrderComponent';
 class App extends Component {
   render() {
     return (
