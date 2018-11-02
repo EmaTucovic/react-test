@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Test from './HigherOrderComponent';
+import ReactRefsTestig from './ReactRefs';
 class App extends Component {
   render() {
     return (
       <div>
-        <Test />
+        <ReactRefsTestig />
       </div>
     );
   }
