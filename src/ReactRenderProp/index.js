@@ -9,7 +9,7 @@ const Pound = ({ amount }) => <p>Pound: {amount * 0.76}</p>;
 class ReactRenderProp extends Component {
   render() {
 
-    // Instad of children pass a render prop that receive some arg from Amoun component
+    // Instad of children pass a render prop that receive some arg from Amount component
     return (
       <div>
         <h1>Currency Converter</h1>{" "}
